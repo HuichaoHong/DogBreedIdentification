@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/null/util/main.cpp
+iostream
+-
+string
+-
+cstdio
+-
+cmath
+-
+fstream
+-
+dirent.h
+-
+sys/types.h
+-
+stdio.h
+-
+opencv2/opencv.hpp
+-
+json/json.h
+-
+

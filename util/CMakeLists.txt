@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( util)
+link_libraries(/usr/local/lib/libjsoncpp.a)
+find_package( OpenCV REQUIRED )
+add_executable( util main.cpp )
+target_link_libraries( util ${OpenCV_LIBS})
